@@ -1,0 +1,1 @@
+Implementing Middleman blog search using [Tipue](http://www.tipue.com/search/). This is a slightly more robust solution than the one proposed in [middleman-search-example](https://github.com/joelhans/middleman-search-example).

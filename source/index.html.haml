@@ -1,0 +1,18 @@
+:markdown
+	# Searching Middleman w/ Tipue
+	
+	[Tipue](http://www.tipue.com/search/) is a great [jQuery](http://jquery.com) plugin that allows the searching of static content. Inspired by [middleman-search-example](https://github.com/joelhans/middleman-search-example), this is an example site for searching a Middleman blog with Tipue.
+	
+	The one advantage that Tipue uses is that it can be a dynamic, JSON driven inline search *and* you an pass it search queries from other pages using the GET variable <code>q</code>. So, you can use <code>/search.html</code> as the <code>action</code> target on other pages.
+
+.text-center
+	%h2 Tipue Search
+	%p (Hint: try searching for "wikipedia")
+
+	%form.form-inline
+		.form-group
+			%label.sr-only{:for => "q"} Search This Blog
+			%input#tipue_search_input.tipue_search_input.form-control{:type=>"text", :name => "q", :placeholder => "Search This Blog"}
+		.form-group
+			%button#tipue_search_button.btn.btn-default{:type=>"button"} Search
+	#tipue_search_content

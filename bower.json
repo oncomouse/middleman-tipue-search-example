@@ -1,0 +1,26 @@
+{
+  "name": "middleman-tipue-search-example",
+  "version": "1.0.0",
+  "authors": [
+    "oncomouse <oncomouse@gmail.com>"
+  ],
+  "description": "Example of a Middleman setup using Tipue for blog search",
+  "keywords": [
+    "jquery",
+    "tipue",
+    "middleman"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
